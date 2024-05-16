@@ -1,0 +1,9 @@
+<Context>
+  <Resource name="jdbc/PinTaiChe" 
+	auth="Container" type="javax.sql.DataSource"
+           maxActive="20" maxIdle="5" maxWait="10000"
+           username="admin" password="123456" 
+           driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+           url="jdbc:sqlserver://localhost:1433;databaseName=PinTaiChe"/>
+</Context>
+
